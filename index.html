@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>浜田高等学校 オープンスクール 2025</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=M+PLUS+Rounded+1c:wght@400;700;800&display=swap" rel="stylesheet">
+    <style>
+        /* M PLUS Rounded 1cフォントを適用 */
+        body {
+            font-family: 'M PLUS Rounded 1c', 'Inter', sans-serif;
+            background-color: #F7FAFC;
+        }
+        /* 見出しやボタンなど、特に目立たせたい部分に太字のフォントを適用 */
+        .font-brand-heavy {
+            font-family: 'M PLUS Rounded 1c', sans-serif;
+            font-weight: 800;
+        }
+        /* ヒーローセクションのグラデーション背景 */
+        .hero-gradient {
+            background: linear-gradient(135deg,  #667eea 0%, #764ba2 100%);
+        }
+        /* カードのホバーエフェクト */
+        .card-hover {
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+        .card-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ヘッダー -->
+    <header class="bg-white/80 backdrop-blur-md shadow-sm sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <h1 class="text-xl md:text-2xl font-bold text-gray-800">浜田高等学校</h1>
+            <a href="#application" class="bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-6 rounded-full transition duration-300 shadow-lg">
+                参加申込
+            </a>
+        </div>
+    </header>
+
+    <!-- メインコンテンツ -->
+    <main>
+        <!-- ヒーローセクション -->
+        <section class="hero-gradient text-white text-center py-20 px-6">
+            <h2 class="text-4xl md:text-6xl font-brand-heavy drop-shadow-lg mb-4">未来のジブン、見つけよう！</h2>
+            <p class="text-lg md:text-xl font-bold mb-2">浜田高等学校 オープンスクール 2025</p>
+            <p class="text-2xl md:text-3xl font-brand-heavy tracking-wider">
+                <span class="bg-white text-indigo-600 px-4 py-1 rounded-md shadow-xl">8月5日<span class="text-lg">(土)</span>開催！</span>
+            </p>
+        </section>
+
+        <!-- ページ本体 -->
+        <div class="container mx-auto px-6 py-12 md:py-16">
+            <div class="flex flex-col lg:flex-row gap-12">
+
+                <!-- 左側コンテンツ: オープンスクールの内容 -->
+                <div class="w-full lg:w-2/3">
+                    <h3 class="font-brand-heavy text-3xl text-gray-800 border-l-8 border-indigo-500 pl-4 mb-8">オープンスクールの内容</h3>
+                    
+                    <div class="space-y-10">
+                        <!-- 体験授業 -->
+                        <div class="bg-white rounded-xl shadow-lg overflow-hidden card-hover">
+                            <img src="https://drive.google.com/file/d/1d0XPPWlMxTgvIkpEt_YeQ-g6ah5nqsvH/view?usp=sharing" alt="体験授業のイメージ画像" class="w-full h-48 object-cover">
+                            <div class="p-6 md:p-8">
+                                <h4 class="font-brand-heavy text-2xl text-indigo-700 mb-3">ワクワクの体験授業</h4>
+                                <p class="text-gray-600 leading-relaxed">
+                                    「最先端プログラミング」「ネイティブと話す英会話」「ドキドキの科学実験」など、高校の授業をひと足先に体験！君の「好き」や「得意」がきっと見つかるはず。先輩たちが優しくサポートするから安心してね。
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- 部活動見学 -->
+                        <div class="bg-white rounded-xl shadow-lg overflow-hidden card-hover">
+                            <img src="https://placehold.co/800x400/81c784/ffffff?text=青春の部活動" alt="部活動のイメージ画像" class="w-full h-48 object-cover">
+                            <div class="p-6 md:p-8">
+                                <h4 class="font-brand-heavy text-2xl text-green-700 mb-3">青春の部活動</h4>
+                                <p class="text-gray-600 leading-relaxed">
+                                    運動部から文化部まで、ハマコウの多彩な部活動を自由に見学・体験！先輩たちの熱い姿に刺激を受けよう。気になる部活があったら、気軽に声をかけてみて！
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- 先輩との交流会 -->
+                        <div class="bg-white rounded-xl shadow-lg overflow-hidden card-hover">
+                            <img src="https://placehold.co/800x400/ffd54f/ffffff?text=先輩と話そう" alt="在校生との交流会のイメージ画像" class="w-full h-48 object-cover">
+                            <div class="p-6 md:p-8">
+                                <h4 class="font-brand-heavy text-2xl text-amber-700 mb-3">在校生と交流タイム</h4>
+                                <p class="text-gray-600 leading-relaxed">
+                                    ランチを食べながら、在校生の先輩たちとフリートーク！勉強のこと、学校生活のこと、気になることは何でも質問してみよう。リアルな高校生活がイメージできる絶好のチャンス！
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 右側サイドバー: 詳細情報 -->
+                <aside class="w-full lg:w-1/3 space-y-8 lg:sticky top-28 h-full">
+                    
+                    <!-- 参加申込 -->
+                    <div id="application" class="bg-white p-6 rounded-xl shadow-md border-t-4 border-orange-500">
+                         <h4 class="font-brand-heavy text-2xl text-center text-gray-800 mb-4">参加お申し込み</h4>
+                         <p class="text-center text-gray-600 mb-6">下のボタンから簡単にお申し込みできます。<br>友達や保護者の方との参加も大歓迎！</p>
+                         <a href="#" class="block w-full bg-orange-500 hover:bg-orange-600 text-white font-bold text-lg text-center py-4 px-6 rounded-lg transition duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+                             今すぐ申し込む
+                         </a>
+                    </div>
+                    
+                    <!-- 当日のスケジュール -->
+                    <div class="bg-white p-6 rounded-xl shadow-md border-t-4 border-indigo-500">
+                        <h4 class="font-brand-heavy text-xl text-gray-800 mb-4">当日のスケジュール</h4>
+                        <ul class="space-y-3 text-gray-700">
+                            <li class="flex items-center"><span class="bg-indigo-100 text-indigo-800 text-sm font-bold mr-3 px-3 py-1 rounded-full">9:00</span>受付開始</li>
+                            <li class="flex items-center"><span class="bg-indigo-100 text-indigo-800 text-sm font-bold mr-3 px-3 py-1 rounded-full">9:30</span>全体説明会</li>
+                            <li class="flex items-center"><span class="bg-indigo-100 text-indigo-800 text-sm font-bold mr-3 px-3 py-1 rounded-full">10:00</span>体験授業</li>
+                            <li class="flex items-center"><span class="bg-indigo-100 text-indigo-800 text-sm font-bold mr-3 px-3 py-1 rounded-full">12:00</span>ランチ＆先輩との交流会</li>
+                            <li class="flex items-center"><span class="bg-indigo-100 text-indigo-800 text-sm font-bold mr-3 px-3 py-1 rounded-full">13:00</span>部活動見学（自由参加）</li>
+                            <li class="flex items-center"><span class="bg-indigo-100 text-indigo-800 text-sm font-bold mr-3 px-3 py-1 rounded-full">15:00</span>終了予定</li>
+                        </ul>
+                    </div>
+
+                    <!-- アクセス -->
+                    <div class="bg-white p-6 rounded-xl shadow-md border-t-4 border-green-500">
+                        <h4 class="font-brand-heavy text-xl text-gray-800 mb-4">アクセス</h4>
+                        <p class="text-gray-700 mb-4">
+                            〒XXX-XXXX 島根県浜田市黒川町XX-XX<br>
+                            JR浜田駅より徒歩15分
+                        </p>
+                        <!-- Google Mapの埋め込み（サンプル） -->
+                        <div class="aspect-w-16 aspect-h-9 rounded-lg overflow-hidden">
+                           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3274.283313988463!2d132.07361431523612!3d34.84918798039609!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x355a6f272c1c045b%3A0xe5a31a415c48521d!2z5bO255S655yM55u45L2T6auY55S65b25!5e0!3m2!1sja!2sjp!4v1686600000000!5m2!1sja!2sjp" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </main>
+
+    <!-- フッター -->
+    <footer class="bg-gray-800 text-white mt-16">
+        <div class="container mx-auto px-6 py-8 text-center">
+            <p class="font-bold text-lg mb-2">浜田高等学校</p>
+            <p class="text-gray-400">〒XXX-XXXX 島根県浜田市黒川町XX-XX</p>
+            <p class="text-gray-400">TEL: 0855-XX-XXXX</p>
+            <p class="mt-6 text-sm text-gray-500">&copy; 2025 Hamada High School. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
